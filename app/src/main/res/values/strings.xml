@@ -3,4 +3,5 @@
     <string name="goto2">Proceed</string>
     <string name="placeholder_text_info">Email</string>
     <string name="go_back">Back</string>
+    <string name="email">email</string>
 </resources>

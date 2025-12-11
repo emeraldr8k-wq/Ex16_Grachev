@@ -15,6 +15,11 @@ public class InfoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivityInfoBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+        String email = getIntent().getStringExtra(getString(R.string.email)) + "@mail.ru";
+        binding.tvValue.setText(email);
+        binding.btnBack.setOnClickListener(view -> {
+            finish();
+        });
 
     }
 }
